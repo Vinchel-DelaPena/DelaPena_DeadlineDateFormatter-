@@ -7,7 +7,7 @@ month = int(input("Enter month: "))
 day = int(input("Enter day: "))
 
 # Display event details
-print("Event Title:", event_title)
+print("Event Title:", event_title.())
 print("Year:", year)
 print("Month:", month)
 print("Day:", day)
