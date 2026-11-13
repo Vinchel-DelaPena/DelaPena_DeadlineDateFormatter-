@@ -1,0 +1,16 @@
+# Version 2: Added Date Formatting
+from datetime import date
+
+# Ask for event details
+event_title = input("Enter event title: ")
+year = int(input("Enter year: "))
+month = int(input("Enter month: "))
+day = int(input("Enter day: "))
+
+# Format the date
+deadline = date(year, month, day)
+formatted_date = deadline.strftime("%B %d, %Y")
+
+# Display event details
+print("Event Title:", event_title.upper())
+print("Deadline:", formatted_date)
